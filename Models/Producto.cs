@@ -30,7 +30,7 @@ namespace TiendaRopa.Models
     public string marca { get; set; }
 
     [Required(ErrorMessage="Debe ingresar el SKU del ropa a registrar")]
-    [Display(Name="SKU del libro")] 
+    [Display(Name="SKU")] 
     [Column("sku")]
     public string sku { get; set; }
 
